@@ -1,0 +1,75 @@
+/* General container for the bot page */
+.bot-container {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1e; /* Dark background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for contrast */
+    height: 540px;
+}
+
+.bot-container h1 {
+    color: #f4f4f9; /* Light text color for the heading */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.bot-container p {
+    color: #d1d5db; /* Light gray color for the paragraph */
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bot-container ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1.125rem;
+    color: #d1d5db; /* Same light gray color as paragraph */
+}
+
+.bot-container ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Button Styling */
+.bot-button {
+    margin-top: 20px;
+}
+
+.bot-button a {
+    padding: 12px 30px;
+    background-color: #3b82f6; /* Lighter blue for the button */
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.bot-button a:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight grow effect */
+}
+
+.bot-button a:active {
+    background-color: #1e40af; /* Even darker blue when clicked */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .bot-container h1 {
+        font-size: 2rem;
+    }
+
+    .bot-container p,
+    .bot-container ul {
+        font-size: 1rem;
+    }
+}

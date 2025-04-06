@@ -1,0 +1,192 @@
+.add-voice-channel-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1c1c1e;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-voice-channel-container h2 {
+    text-align: center;
+}
+
+.message {
+    color: green;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonsubmit {
+    margin-top: 15px;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttonsubmit:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+
+.saved-voice-channel-container {
+    max-width: 400px;
+    margin: 50px auto 20px auto; /* extra bottom margin to separate from add channel card */
+    padding: 20px;
+    background: #1c1c1e;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.add-voice-channel-container {
+    max-width: 400px;
+    margin: 20px auto 50px auto;
+    padding: 20px;
+    background: #1c1c1e;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.saved-voice-channel-container h2,
+.add-voice-channel-container h2 {
+    text-align: center;
+}
+
+.message {
+    color: green;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonsubmit {
+    margin-top: 15px;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttonsubmit:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+/* New styles for voice channel list items and delete button */
+.add-voice-channel-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1c1c1e;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.add-voice-channel-container h2 {
+    text-align: center;
+}
+
+.message {
+    color: green;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonsubmit {
+    margin-top: 15px;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttonsubmit:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+/* Saved Voice Channels Section */
+.saved-voice-channels {
+    margin-top: 30px;
+}
+
+.saved-voice-channels h3 {
+    text-align: center;
+}
+
+.channel-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #2c2c2e;
+    border-radius: 4px;
+}
+
+.delete-button {
+    background: transparent;
+    border: none;
+    color: #ff6b6b;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    color: #ff3b3b;
+}

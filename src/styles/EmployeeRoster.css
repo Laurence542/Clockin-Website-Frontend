@@ -1,0 +1,82 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #2a2a2a;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.no-users {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #242427;
+  border-radius: 50px;
+  margin: 0 auto; /* This centers the table */
+}
+
+th {
+  background-color: #242427;
+  color: rgba(255, 255, 255, 0.61);
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  background-color: #404042;
+  border: 1px solid rgb(27, 32, 28);
+  padding: 10px;
+  text-align: left;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center; 
+  gap: 10px; 
+  margin-bottom: 20px;
+}
+
+.filter-dropdown,
+.search-input {
+  width: 100%; 
+  max-width: 400px; 
+  max-height: 60px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #2a2a2a;
+  background-color: #2a2a2a;
+  color: #ccc;
+  font-size: 16px;
+}

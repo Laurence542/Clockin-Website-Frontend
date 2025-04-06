@@ -1,0 +1,36 @@
+.card {
+    background-color: #1c1c1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; 
+    max-width: 100%; 
+    text-align: center;
+}
+
+.card-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-change {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.card-timeframe {
+    font-size: 14px;
+    color: #a1a1a1;
+}
+@media (max-width: 768px) {
+    .dashboard-summary {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .card {
+        width: 90%; 
+        max-width: 400px; 
+    }
+}
