@@ -104,12 +104,12 @@ const UserDetails = () => {
       <Navbar />
       <ContentArea>
         {fetchingOptions ? (
-          // Display only the centered CircularProgress while loading options
+ 
           <Box
             display="flex"
             justifyContent="center"
             alignItems="center"
-            minHeight="60vh"  // Adjust this height as needed
+            minHeight="60vh"  
           >
             <CircularProgress />
           </Box>
@@ -136,7 +136,6 @@ const UserDetails = () => {
                 value={formData.secondName}
                 onChange={handleChange}
                 margin="normal"
-                required
               />
               <TextField
                 fullWidth

@@ -91,6 +91,8 @@ const TimeOffRequestsList = () => {
         updatedRequests = updatedRequests.sort(
             (a, b) => new Date(b.submittedAt || b.startDate) - new Date(a.submittedAt || a.startDate)
         );
+ 
+
 
         setFilteredRequests(updatedRequests);
         setCurrentPage(1);
